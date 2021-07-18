@@ -11,7 +11,7 @@ $customerEmail = $_REQUEST['email'];
 $address = $_REQUEST['address'];
 $order_note = $_REQUEST['order_note'];
 
-// display the results
+// results
 $name = [];
 
 foreach (array_combine($_REQUEST['idname'], $_REQUEST['qt']) as $value => $value1) {

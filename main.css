@@ -10866,6 +10866,8 @@ a:hover, a:focus {
 .main-wrapper .main-content header .cart-btn i {
   font-size: 28px;
   color: #000;
+  display: none;
+  /* Language swirche Off */
 }
 .main-wrapper .main-content header .cart-btn span {
   width: 15px;
@@ -10933,6 +10935,8 @@ a:hover, a:focus {
   height: 30px;
   position: relative;
   top: -4px;
+  display: none;
+  /* Navigation Menu Hidden */
 }
 .main-wrapper .main-content header.style2 .menu-btn span {
   width: 25px;
@@ -10970,7 +10974,8 @@ a:hover, a:focus {
   font-size: 28px;
   line-height: 1.2;
   font-weight: bold;
-  color: #111;
+  color: #fff;
+  text-align: center;
 }
 .main-wrapper .main-content header.style2 p {
   font-size: 13px;
@@ -12034,7 +12039,7 @@ a.cat_link2.cur_sub h4, a.spl_link.cur_sub h4  {
 .shop-categoris .item h4 {
   font-size: 11px;
   font-weight: 500;
-  color: #333;
+  color: #fff;
   margin-top: 8px;
 }
 
@@ -13576,7 +13581,7 @@ i.price span {
     width: 500px!important;
     position: relative;
     margin-right : 0 auto;
-        box-shadow: 4px 0px 18px 4px #8e8822;
+        box-shadow: 4px 0px 18px 4px #fe5b07;
 }
 }
 
@@ -13602,7 +13607,8 @@ i.price span {
     -ms-flex-align: center;
     align-items: center;
     border-left: 1px transparent solid;
-    background-color: rgb(240, 235, 141);
+    /* background-color: rgb(240, 235, 141); */
+    background-color: #fff;
 }
 }
 
